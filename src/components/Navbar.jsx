@@ -1,15 +1,15 @@
-import { Search } from '@material-ui/icons';
+import { Badge } from '@material-ui/core';
+import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import styled from 'styled-components';
 
 const Container = styled.div`
    height: 60px;
-   background-color: lightblue;
+   ${'' /* background-color: lightblue; */}
 `;
 const Wrapper = styled.div`
    padding: 10px 20px;
    display: flex;
    justify-content: space-between;
-   ${'' /* align-center: center; */}
 `;
 const Left = styled.div`
    flex: 1;
@@ -22,6 +22,15 @@ const Center = styled.div`
 `;
 const Right = styled.div`
    flex: 1;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+`;
+
+const MenuItem = styled.div`
+   font-size: 14px;
+   cursor: pointer;
+   margin-left: 25px;
 `;
 const Language = styled.span`
    cursor: pointer;
@@ -41,7 +50,6 @@ const Input = styled.input`
 
 const Logo = styled.h1`
    font-weight: bold;
-   ${'' /* text-align: center; */}
 `;
 
 const Navbar = () => {
@@ -51,14 +59,22 @@ const Navbar = () => {
             <Left>
                <Language>EN</Language>
                <SearchContainer>
-                  <Input></Input>
-                  <Search />
+                  <Input />
+                  <Search style={{ color: 'gray', fontSize: '16px' }} />
                </SearchContainer>
             </Left>
             <Center>
                <Logo>Ace</Logo>
             </Center>
-            <Right>Right</Right>
+            <Right>
+               <MenuItem>REGISTER</MenuItem>
+               <MenuItem>SIGN IN</MenuItem>
+               <MenuItem>
+                  <Badge badgeContent={4} color='primary'>
+                     <ShoppingCartOutlined />
+                  </Badge>
+               </MenuItem>
+            </Right>
          </Wrapper>
       </Container>
    );
