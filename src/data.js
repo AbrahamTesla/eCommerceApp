@@ -43,15 +43,15 @@ export const categories = [
 export const hotProducts = [
    {
       id: 1,
-      img: 'https://kalibrado.com/wp-content/uploads/2018/03/Estarer-messenger-bag.jpg',
+      img: 'https://www.pngall.com/wp-content/uploads/2/Backpack-PNG-Photos.png',
    },
    {
       id: 2,
-      img: 'https://gearmoose.com/wp-content/uploads/2020/12/peak-design-everyday-messenger-bag-1024x679.jpg',
+      img: 'https://www.pngall.com/wp-content/uploads/5/Men-Accessories-PNG-Download-Image.png',
    },
    {
       id: 3,
-      img: 'https://pyxis.nymag.com/v1/imgs/4f0/802/3840174efd0e4d16bb945afda1bf839af2-9----.2x.h473.w710.jpg',
+      img: 'https://www.pngplay.com/wp-content/uploads/12/Laptop-Bag-Transparent-Background.png',
    },
    {
       id: 4,
@@ -59,18 +59,18 @@ export const hotProducts = [
    },
    {
       id: 5,
-      img: 'https://images.coach.com/is/image/Coach/c5387_qbt14_a0?$desktopProduct$',
+      img: 'https://www.pngarts.com/files/8/Mens-Business-Backpack-PNG-Image-Background.png',
    },
    {
       id: 6,
-      img: 'https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B800%2C499%5D&w=1600&h=800&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2017%2F07%2FFrye_Nordstrom-MESSENGER0717.jpg',
+      img: 'https://www.pngall.com/wp-content/uploads/4/Brown-Leather-Bag-Transparent.png',
    },
    {
       id: 7,
-      img: 'https://kalibrado.com/wp-content/uploads/2018/03/Estarer-messenger-bag.jpg',
+      img: 'https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/30066/man-handbag-clipart-md.png',
    },
    {
       id: 8,
-      img: 'https://maximonline.com/wp-content/uploads/2019/10/Urban-Leather-Messenger-Bags-for-Men-1.png',
+      img: 'https://www.nicepng.com/png/full/819-8199023_men-leather-bag-leather-crazy-horse-old.png',
    },
 ];
