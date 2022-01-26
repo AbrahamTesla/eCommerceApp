@@ -2,7 +2,7 @@ import { Facebook, Instagram, Pinterest, YouTube } from '@material-ui/icons';
 import styled from 'styled-components';
 
 const Container = styled.div`
-   padding: 20px;
+   /* padding: 20px; */
    display: flex;
 `;
 const Left = styled.div`
@@ -10,31 +10,36 @@ const Left = styled.div`
    flex-direction: column;
    align-items: center;
    justify-content: center;
-
-   background-color: lightblue;
+   /* background-color: lightblue; */
+   padding: 20px;
 `;
 const Center = styled.div`
    flex: 1;
 `;
+
+const List = styled.ul``;
+const ListItems = styled.li``;
 const Right = styled.div`
    flex: 1;
 `;
 const Title = styled.h1``;
-const Description = styled.h3`
-   width: 80%;
+const Description = styled.p`
+   margin: 20px 0px;
 `;
 const SocialIconContainer = styled.div`
    display: flex;
-   align-items: center;
+   /* align-items: center; */
 `;
 const SocialIcons = styled.div`
    width: 40px;
    height: 40px;
    border-radius: 50%;
-   background-color: white;
+   color: white;
+   display: flex;
    align-items: center;
    justify-content: center;
    margin-right: 20px;
+   background-color: #${props => props.color};
 `;
 
 const Footer = () => {
@@ -48,21 +53,29 @@ const Footer = () => {
                send love you.
             </Description>
             <SocialIconContainer>
-               <SocialIcons>
+               <SocialIcons color='3B5999'>
                   <Facebook />
                </SocialIcons>
-               <SocialIcons>
+               <SocialIcons color='E4405F'>
                   <Instagram />
                </SocialIcons>
-               <SocialIcons>
+               <SocialIcons color='55ACEE'>
                   <YouTube />
                </SocialIcons>
-               <SocialIcons>
+               <SocialIcons color='E60023'>
                   <Pinterest />
                </SocialIcons>
             </SocialIconContainer>
          </Left>
-         <Center></Center>
+         <Center>
+            <Title>Menu</Title>
+            <List>
+               <ListItems>Home</ListItems>
+               <ListItems>Register</ListItems>
+               <ListItems>Login</ListItems>
+               <ListItems>Products</ListItems>
+            </List>
+         </Center>
          <Right></Right>
       </Container>
    );
