@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
    //To give equal size for 3 images flex 1 with margin of 3px;
@@ -26,6 +27,7 @@ const Image = styled.img`
    height: 100%;
    object-fit: cover;
    /* margin: 3px; */
+   ${mobile({ height: '20vh' })}
 `;
 
 const Title = styled.h1`
