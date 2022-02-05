@@ -11,9 +11,6 @@ const Container = styled.div`
    background-color: #fcf5f5;
 `;
 const InputContainer = styled.div`
-   /* display: flex;
-   align-items: center;
-   justify-content: center; */
    width: 50%;
    height: 40px;
    background-color: lightblue;
