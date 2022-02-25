@@ -27,16 +27,19 @@ export const categories = [
       id: 1,
       img: 'https://kalibrado.com/wp-content/uploads/2018/03/Estarer-messenger-bag.jpg',
       title: 'University Bag',
+      cat: 'women',
    },
    {
       id: 2,
       img: 'https://gearmoose.com/wp-content/uploads/2020/12/peak-design-everyday-messenger-bag-1024x679.jpg',
       title: 'Office Messenger Bag',
+      cat: 'men',
    },
    {
       id: 3,
       img: 'https://maximonline.com/wp-content/uploads/2019/10/Urban-Leather-Messenger-Bags-for-Men-1.png',
       title: 'Classy Bag',
+      cat: 'men',
    },
 ];
 
